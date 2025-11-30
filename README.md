@@ -16,7 +16,7 @@ Hi
   <tr>
     <td colspan="2" align="center"><b>SNP selection</b></td>
   </tr>
-  <tr><td>04_clumping.sh</td><td>Performs LD clumping to select independent SNPs for each trait using two p-value thresholds (1e-4 and 1e-5); outputs &lt;trait&gt;.valid.snp.</td></tr>
+  <tr><td>04_clumping.sh</td><td>Performs LD clumping to select independent SNPs for each trait using p-value threshold = 1e-4; outputs &lt;trait&gt;.valid.snp.</td></tr>
 
   <!-- Allele Frequency -->
   <tr>
