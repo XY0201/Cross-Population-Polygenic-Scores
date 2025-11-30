@@ -1,12 +1,12 @@
 # Cross-Population-Polygenic-Scores
 
-## **Abstract**
+## 📄 **Abstract**
 
 This project compares polygenic scores (PGS) derived from standard GWAS and sibling-based GWAS to evaluate their cross-population predictive correlations. Using 1000 Genomes data, the analysis relates population-level mean PGS to corresponding traits, including height, BMI, SBP, and HDL.
 
 ---
 
-## **Data**
+## 📄 **Data**
 
 ### 1. Target data
 1000 Genomes Phase 3 genotype data used as the target dataset.  
@@ -38,7 +38,7 @@ Population-level trait values (height, BMI, SBP, HDL) used for regression analys
 
 ---
 
-## **Code**
+## 📄 **Code**
 
 ### Environment
 
@@ -91,7 +91,7 @@ This project was run using R 4.5 and PLINK 1.9.
 
 ---
 
-## **Results**
+## 📄 **Results**
 
 - **af_distributions/** — Allele-frequency distribution plots for each trait.
 
