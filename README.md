@@ -6,6 +6,38 @@ This project compares polygenic scores (PGS) derived from standard GWAS and sibl
 
 ---
 
+## **Data**
+
+### 1. Target data
+1000 Genomes Phase 3 genotype data used as the target dataset.  
+**Source:** https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+
+### 2. Base GWAS data
+GWAS summary statistics used as base datasets for computing polygenic scores.  
+**Source:** https://opengwas.io/datasets/
+
+| GWAS ID     | Trait     |
+|-------------|-----------|
+| ieu-b-4813  | Height    |
+| ieu-b-4814  | Height_sd |
+| ieu-b-4815  | BMI       |
+| ieu-b-4816  | BMI_sd    |
+| ieu-b-4817  | SBP       |
+| ieu-b-4818  | SBP_sd    |
+| ieu-b-4843  | HDL       |
+| ieu-b-4844  | HDL_sd    |
+
+### 3. Phenotype data
+Population-level trait values (height, BMI, SBP, HDL) used for regression analyses.  
+**Source:** https://ncdrisc.org/index.html
+
+### 4. Uploaded Data
+- **panel_with_pop_filter.csv** — Processed 1000G sample panel with merged sub-population labels.  
+- **region.xlsx** — Mapping between 1000G populations and their corresponding countries/regions for trait assignment.  
+- **regression/** — Final sex-stratified population-level tables linking phenotypes with PGS results.
+
+---
+
 ## **Code**
 
 ### Environment
