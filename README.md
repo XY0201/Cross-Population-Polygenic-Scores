@@ -2,7 +2,7 @@
 
 ## 📄 **Abstract**
 
-This project compares polygenic scores (PGS) derived from standard GWAS and sibling-based GWAS to evaluate their cross-population predictive correlations. Using 1000 Genomes data, the analysis relates population-level mean PGS to corresponding traits, including height, BMI, SBP, and HDL.
+This project compares polygenic scores (PGS) derived from standard GWAS and sibling-based GWAS to evaluate their cross-population predictive performance. Using 1000 Genomes data, the analysis relates population-level mean PGS to corresponding traits, including height, BMI, SBP, and HDL.
 
 ---
 
