@@ -77,6 +77,8 @@ This project was run using R 4.5 and PLINK 1.9.
   </tr>
   <tr><td><code>08_run_pgs.sh</code></td><td>Calculates PGS for each trait based on valid SNPs and harmonized alleles.</td></tr>
   <tr><td><code>09_compute_PGS_mean.R</code></td><td>Computes mean PGS for each (population × sex), merges subpopulations, and generates global z-scored means.</td></tr>
+  <tr><td><code>10_PGS_correlation.R</code></td><td>Analyzes and visualizes correlations between population-mean PGS from standard and sibling GWAS.</td></tr>
+  <tr><td><code>11_Random_AF.R</code></td><td>Generates EUR allele-frequency–matched random SNP sets and analyzes their allele frequency distributions as a control for GWAS SNPs.</td></tr>
 
   <!-- Regression analyses -->
   <tr>
