@@ -97,3 +97,4 @@ This project was run using R 4.5 and PLINK 1.9.
 
 - **regression/** — Regression summary tables (`*_reg.csv`, `*_sd_reg.csv`) and sex-stratified scatterplots comparing population-level PGS with phenotype means.
 
+- **PGS correlation/** — Sex-stratified scatterplots comparing population-mean PGS from standard and sibling-based GWAS across super-populations.
